@@ -6,7 +6,7 @@ const Category = (props) => (
     <p className='Category-title'>{props.description}</p>
     <h2 className='Category-description'>{props.title}</h2>
     <Playlist
-      playlist={props.playlist}
+      playlist={props.playlist} handleOpenModal={props.handleOpenModal}
     />
   </div>
 )
